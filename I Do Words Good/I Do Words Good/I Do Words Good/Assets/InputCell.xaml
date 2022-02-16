@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="I_Do_Words_Good.Assets.InputCell">
+  <ContentView.Content>
+      <StackLayout >
+            <Frame BackgroundColor="Gray" BorderColor="White" >
+                <Label x:Name="LetterBox" Text=""/>
+            </Frame>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

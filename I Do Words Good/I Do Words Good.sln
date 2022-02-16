@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I Do Words Good.Android", "I Do Words Good\I Do Words Good.Android\I Do Words Good.Android.csproj", "{B05E9F12-D41F-4084-8511-A59BFD098B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I Do Words Good", "I Do Words Good\I Do Words Good\I Do Words Good.csproj", "{7E8DE2CE-A93F-46AB-8A52-D7D95D9FA7E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I Do Words Good", "I Do Words Good\I Do Words Good\I Do Words Good.csproj", "{7E8DE2CE-A93F-46AB-8A52-D7D95D9FA7E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordParser", "WordParser\WordParser.csproj", "{617B2C90-3990-4AE8-8CEE-2E7167B23076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{7E8DE2CE-A93F-46AB-8A52-D7D95D9FA7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E8DE2CE-A93F-46AB-8A52-D7D95D9FA7E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E8DE2CE-A93F-46AB-8A52-D7D95D9FA7E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{617B2C90-3990-4AE8-8CEE-2E7167B23076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617B2C90-3990-4AE8-8CEE-2E7167B23076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617B2C90-3990-4AE8-8CEE-2E7167B23076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617B2C90-3990-4AE8-8CEE-2E7167B23076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

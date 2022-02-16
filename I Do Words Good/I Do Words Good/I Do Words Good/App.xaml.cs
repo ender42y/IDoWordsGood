@@ -1,6 +1,9 @@
 ﻿using System;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
+using I_Do_Words_Good.Views;
 
 namespace I_Do_Words_Good
 {
