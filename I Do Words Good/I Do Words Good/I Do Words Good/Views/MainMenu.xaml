@@ -2,31 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="I_Do_Words_Good.Views.MainMenu">
-  <ListView x:Name="MyListView"
-            ItemsSource="{Binding Items}"
-            ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement">
-    <!--Built in Cells-->
-    <ListView.ItemTemplate>
-        <DataTemplate>
-            <TextCell Text="{Binding .}" />
-        </DataTemplate>
-    </ListView.ItemTemplate>
-    
-    <!--Custom View Cells-->
-    <!--
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <StackLayout>
-            <Label Text="{Binding Text}" 
-                   Style="{DynamicResource ListItemTextStyle}" />
-            <Label Text="{Binding Detail}" 
-                   Style="{DynamicResource ListItemDetailTextStyle}"/>
-          </StackLayout>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-    -->
-  </ListView>
+    <StackLayout x:Name="MainMenu"
+               Orientation="Vertical">
+        <Label Text="I DO WORDS GOOD"/>
+        <Button Text="Word of the Day" x:Name="WordOfTheDayBtn" Clicked="WordOfTheDayBtn_Clicked"/>
+        <Button Text="New Game" x:Name="NewGameBtn" Clicked="NewGameBtn_Clicked"/>
+    </StackLayout>
 </ContentPage>

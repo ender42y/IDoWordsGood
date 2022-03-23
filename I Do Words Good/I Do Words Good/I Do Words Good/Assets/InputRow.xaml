@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="I_Do_Words_Good.Assets.InputRow">
   <ContentView.Content>
-        <StackLayout Orientation="Horizontal" x:Name="InputRow">
+        <StackLayout Orientation="Horizontal" x:Name="CellRow">
         </StackLayout>
   </ContentView.Content>
 </ContentView>

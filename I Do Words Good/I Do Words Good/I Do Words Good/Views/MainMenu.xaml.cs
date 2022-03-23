@@ -12,33 +12,22 @@ namespace I_Do_Words_Good.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainMenu : ContentPage
     {
-        public ObservableCollection<string> Items { get; set; }
 
         public MainMenu()
         {
             InitializeComponent();
 
-            Items = new ObservableCollection<string>
-            {
-                "Item 1",
-                "Item 2",
-                "Item 3",
-                "Item 4",
-                "Item 5"
-            };
-
-            MyListView.ItemsSource = Items;
+            
         }
 
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void WordOfTheDayBtn_Clicked(object sender, EventArgs e)
         {
-            if (e.Item == null)
-                return;
+            
+        }
 
-            await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
+        private void NewGameBtn_Clicked(object sender, EventArgs e)
+        {
 
-            //Deselect Item
-            ((ListView)sender).SelectedItem = null;
         }
     }
 }
