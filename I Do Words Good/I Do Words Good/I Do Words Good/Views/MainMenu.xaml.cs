@@ -25,9 +25,11 @@ namespace I_Do_Words_Good.Views
             
         }
 
-        private void NewGameBtn_Clicked(object sender, EventArgs e)
+        private async void NewGameBtn_Clicked(object sender, EventArgs e)
         {
-
+            string result = await DisplayActionSheet("Word Length","Back",null, "3", "4", "5", "6", "7");
+            int length = int.Parse(result);
+            await Navigation.PushAsync(new GameBoard(length));
         }
     }
 }

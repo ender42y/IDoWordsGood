@@ -16,7 +16,7 @@ namespace I_Do_Words_Good.Models
 
         private string NewWord(int length)
         {
-
+            return "";
         }
     }
 }

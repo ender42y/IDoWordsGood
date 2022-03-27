@@ -12,8 +12,8 @@ namespace I_Do_Words_Good
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            //MainPage = new MainMenu();
+            MainPage = new NavigationPage(new MainMenu());
         }
 
         protected override void OnStart()

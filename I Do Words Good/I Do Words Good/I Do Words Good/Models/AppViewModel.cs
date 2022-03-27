@@ -7,6 +7,7 @@ namespace I_Do_Words_Good.Models
     public class AppViewModel
     {
         public Game GameOfTheDay { get; set;}
+        public Game ContinueGame { get; set; }
     }
 }
 

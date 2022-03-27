@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="I_Do_Words_Good.Assets.Keyboard">
   <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+      <StackLayout Orientation="Vertical" VerticalOptions="End">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" x:Name="TopRow"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" x:Name="MiddleRow"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" x:Name="BottomRow"/>
+        </StackLayout>
   </ContentView.Content>
 </ContentView>
